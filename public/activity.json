@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "name": "Walking",
+      "about": "Why it's a winner: You can walk anywhere, anytime. Use a treadmill or hit the streets. How to: If you're just starting to walk for fitness",
+      "start": "At 7 a.m.",
+      "time": 25,
+      "ratingsCount": 2121,
+      "img": "https://i.ibb.co/dPR2HJD/walking.jpg"
+    },
+    {
+      "id": 2,
+      "name": " Interval Training",
+      "about": "Why it's a winner: Interval training boosts your fitness levels and burns more calories to help you lose weight. ",
+      "start": "At 7.30 a.m.",
+      "time": 15,
+      "ratingsCount": 2000,
+      "img": "https://i.ibb.co/qrLqppw/intervaltraining.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Squats",
+      "about": "Why it's a winner: Squats work several muscle groups -- your quadricephamstrings, and gluteals-- at the same time.",
+      "start": "At 7.45 a.m.",
+      "time": 20,
+      "ratingsCount": 2321,
+      "img": "https://i.ibb.co/0svGF3C/Squats.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Lunges",
+      "about": "Why it's a winner: Like squats, lunges work all the major muscles of your lower body. They can also improve your balance.",
+      "start": "At 8 a.m.",
+      "time": 20,
+      "ratingsCount": 2321,
+      "img": "https://i.ibb.co/RDJNGLS/Lunges-images.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Push-Ups",
+      "about": "Why it's a winner: Push-ups strengthen your chest, shoulders, triceps, and core muscles.How to: Facing down, ",
+      "start": "At 8.30a.m.",
+      "time": 20,
+      "ratingsCount": 2311,
+      "img": "https://i.ibb.co/hDFGsPK/Push-Ups.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Crunches",
+      "about": "Start by lying on your back with your feet flat on the floor and your head resting in the palm of one hand ",
+      "start": "At 9.00a.m.",
+      "time": 20,
+      "ratingsCount": 2311,
+      "img": "https://i.ibb.co/GvbQVf9/Crunches.jpg"
+    }
+  ]
