@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Cart.css';
 import img from './image/inzamam.jpg';
 
 
 const Cart = (props) => {
 
+    const notify = () => toast("My Activity Complete!");
     const {cart} = props;
   
 let total =0;
@@ -35,11 +38,11 @@ const addToDb = num=>{
             <div className="profile">
                 <div className="name">
                     <img className='img-2' src={img} alt="" />
-                    <div className='info'><p><b>Inzamam Nur</b><i> inzamamnur.14@gmail.com</i></p></div>
+                    <p><b>inzamam Nur</b><i> inzamamnur.14@gmail.com</i></p>
                 </div>
                 <div className="my-info my-4">
-                    <p><b>60</b> <i>kg</i></p>
-                    <p><b>6.7</b> <i>foot</i></p>
+                    <p><b>90</b> <i>kg</i></p>
+                    <p><b>6.00</b> <i>foot</i></p>
                     <p><b>23</b> <i>Years</i></p>
                 </div>
                 <h2>Add A Break</h2>
@@ -62,7 +65,8 @@ const addToDb = num=>{
                     </p>
                 </div>
             </div>
-           
+            <button className='btn_completed' onClick={notify}>Activity Completed</button>
+        <ToastContainer />
         </div>
     );
 };
