@@ -21,11 +21,11 @@ const [cart,setCart] =useState([])
         <div className='home-container'>
 
             <div className="">
-                <div className="text-warning bg-dark p-3">
-                <h1> MY-Gym-ACTIVITIES </h1>
+                <div className="header ">
+                <h1>MY-Gym-ACTIVITIES </h1>
                 </div>
 
-                <h3 className='mt-5'>Weekdays Activities</h3>
+                
                     <div className="activity-container">
 
                         {
