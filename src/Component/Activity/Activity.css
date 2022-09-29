@@ -32,3 +32,17 @@
     width: 100%;
     border-radius: 10px;
 }
+@media (max-width: 480px) {
+    .cards {
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 20px;
+        width: 200px;
+        height:450px;
+        margin-left: 0%;
+    }
+    .cards p{
+     font-size: 14px;
+    }
+
+}

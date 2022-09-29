@@ -20,17 +20,7 @@
     }
 
   }
-  @media only screen
-and (device-width: 360px) 
-and (device-height: 780px)  { 
-    .cart-container{
-        position: none;
-        text-align: center;
-        padding: 20px 0px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-        color: rgb(241, 18, 18);
-    }
-}
+
 
 .img-2{
     height: 20%;
@@ -111,4 +101,50 @@ border-radius: 8px;
     border: none;
     border-radius: 5px;
     font-size: 18px;
+}
+@media (max-width: 480px) {
+    .cart-container {
+        position: sticky;
+    top:0;
+    right: 0;
+    text-align: center;
+    padding: 20px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 100%;
+    color: white;
+    width: 120px;
+    font-size: 14px;
+    }
+
+    .img-2{
+        height: 70%;
+        width:50%;
+        border-radius: 100px;
+    }
+    .my-info{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
+        
+    }
+   
+.name{
+    display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    gap:5px;
+    background-color: rgb(238, 238, 197);
+}
+.break-btn {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+justify-content: start;
+}.break-btn button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(253, 253, 253);
+  width: 20%;
+
+    
+}
+
 }
