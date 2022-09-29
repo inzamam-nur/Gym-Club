@@ -35,7 +35,7 @@ const addToDb = num=>{
             <div className="profile">
                 <div className="name">
                     <img className='img-2' src={img} alt="" />
-                    <p><b>Inzamam Nur</b><i> inzamamnur.14@gmail.com</i></p>
+                    <div className='info'><p><b>Inzamam Nur</b><i> inzamamnur.14@gmail.com</i></p></div>
                 </div>
                 <div className="my-info my-4">
                     <p><b>60</b> <i>kg</i></p>
