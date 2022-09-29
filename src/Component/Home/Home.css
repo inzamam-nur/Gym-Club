@@ -21,6 +21,7 @@
     .home-container{
         display: grid;
         grid-template-columns: 4fr 2fr;
+        height: 100%;
     }
    .activity-container{
         margin: 40px 0px;
