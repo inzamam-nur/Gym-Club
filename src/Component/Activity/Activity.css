@@ -1,0 +1,32 @@
+.cards{
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    height:500px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.099) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.082) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.066) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.card-info{
+     height: 75%;
+}
+.cards button{
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 8px;
+    border: none;
+    background-color: aquamarine;
+    
+}
+
+.cards button:hover{
+    background-color: rgb(0, 255, 221);
+}
+
+.img{
+    height: 40%;
+    width: 100%;
+    border-radius: 10px;
+}
